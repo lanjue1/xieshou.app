@@ -1,0 +1,18 @@
+.box{
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 220px;
+    margin: 6px 10px;
+    box-shadow: 0 0 6px #ddd;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    &:hover{
+        transform:  scale(1.06);
+    }
+    img{
+        width:150px;
+        height:200px;
+    }
+}
